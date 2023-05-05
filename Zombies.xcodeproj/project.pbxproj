@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB5DB5CE29F71C3E00793679 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = AB5DB5CD29F71C3E00793679 /* SwiftUICharts */; };
 		AB7C5B5729EDCEE7000A2492 /* ZombiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C5B5629EDCEE7000A2492 /* ZombiesApp.swift */; };
 		AB7C5B5929EDCEE7000A2492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C5B5829EDCEE7000A2492 /* ContentView.swift */; };
 		AB7C5B5B29EDCEE8000A2492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7C5B5A29EDCEE8000A2492 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		AB7C5B6929EDCEE8000A2492 /* ZombiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C5B6829EDCEE8000A2492 /* ZombiesTests.swift */; };
 		AB7C5B7329EDCEE8000A2492 /* ZombiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C5B7229EDCEE8000A2492 /* ZombiesUITests.swift */; };
 		AB7C5B7529EDCEE8000A2492 /* ZombiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C5B7429EDCEE8000A2492 /* ZombiesUITestsLaunchTests.swift */; };
+		ABCC4F6A2A005E3A00251D38 /* PlottingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC4F692A005E3A00251D38 /* PlottingData.swift */; };
+		ABCC4F6B2A005E3A00251D38 /* PlottingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC4F692A005E3A00251D38 /* PlottingData.swift */; };
+		ABCC4F6C2A005E3A00251D38 /* PlottingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC4F692A005E3A00251D38 /* PlottingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,7 @@
 		AB7C5B6E29EDCEE8000A2492 /* ZombiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZombiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7C5B7229EDCEE8000A2492 /* ZombiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombiesUITests.swift; sourceTree = "<group>"; };
 		AB7C5B7429EDCEE8000A2492 /* ZombiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABCC4F692A005E3A00251D38 /* PlottingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlottingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5DB5CE29F71C3E00793679 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +103,7 @@
 			children = (
 				AB7C5B5629EDCEE7000A2492 /* ZombiesApp.swift */,
 				AB7C5B5829EDCEE7000A2492 /* ContentView.swift */,
+				ABCC4F692A005E3A00251D38 /* PlottingData.swift */,
 				AB7C5B5A29EDCEE8000A2492 /* Assets.xcassets */,
 				AB7C5B5C29EDCEE8000A2492 /* Zombies.entitlements */,
 				AB7C5B5D29EDCEE8000A2492 /* Preview Content */,
@@ -145,6 +152,9 @@
 			dependencies = (
 			);
 			name = Zombies;
+			packageProductDependencies = (
+				AB5DB5CD29F71C3E00793679 /* SwiftUICharts */,
+			);
 			productName = Zombies;
 			productReference = AB7C5B5329EDCEE7000A2492 /* Zombies.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +227,9 @@
 				Base,
 			);
 			mainGroup = AB7C5B4A29EDCEE7000A2492;
+			packageReferences = (
+				AB5DB5CC29F71C3E00793679 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = AB7C5B5429EDCEE7000A2492 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCC4F6A2A005E3A00251D38 /* PlottingData.swift in Sources */,
 				AB7C5B5929EDCEE7000A2492 /* ContentView.swift in Sources */,
 				AB7C5B5729EDCEE7000A2492 /* ZombiesApp.swift in Sources */,
 			);
@@ -268,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCC4F6B2A005E3A00251D38 /* PlottingData.swift in Sources */,
 				AB7C5B6929EDCEE8000A2492 /* ZombiesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCC4F6C2A005E3A00251D38 /* PlottingData.swift in Sources */,
 				AB7C5B7529EDCEE8000A2492 /* ZombiesUITestsLaunchTests.swift in Sources */,
 				AB7C5B7329EDCEE8000A2492 /* ZombiesUITests.swift in Sources */,
 			);
@@ -604,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB5DB5CC29F71C3E00793679 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB5DB5CD29F71C3E00793679 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB5DB5CC29F71C3E00793679 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AB7C5B4B29EDCEE7000A2492 /* Project object */;
 }
